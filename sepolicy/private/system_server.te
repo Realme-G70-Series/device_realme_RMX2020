@@ -1,2 +1,4 @@
 # Allow system_server for usb and smart charging nodes
 allow system_server sysfs_battery_supply:file { getattr open read write };
+
+get_prop(system_server, vendor_camera_prop)
