@@ -144,7 +144,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Treble
-BOARD_VNDK_VERSION := current
 TARGET_COPY_OUT_PRODUCT := system/product
 
 #DPI
