@@ -79,7 +79,8 @@ on post-fs-data
 	chmod 0666 /sys/kernel/oppo_display/hbm
 
     # Services
-    setprop init.svc.console stopped
+    stop console
+
 on boot
     # Set permission for Goodix FP
     chown system system /dev/goodix_fp
