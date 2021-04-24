@@ -85,7 +85,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mt6768.rc \
     fstab.mt6768 \
-    init.devicesetting.rc
+    perf_profile.sh
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
