@@ -17,3 +17,6 @@
 /system/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.RMX2020                          u:object_r:hal_fingerprint_RMX2020_exec:s0
 
 /vendor/bin/init\.oppo\.fingerprint\.sh                                                                  u:object_r:hal_fingerprint_RMX2020_exec:s0
+
+# Misc
+/system/bin/perf_profile\.sh	u:object_r:perf_profile_exec:s0
