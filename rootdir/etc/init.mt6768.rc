@@ -70,6 +70,18 @@ on post-fs-data
     chmod 0600 /sys/bus/platform/devices/fpc_interrupt/irq
     chmod 0660 /sys/bus/platform/devices/fpc_interrupt/irq_unexpected
 
+    # USB-OTG
+    chown system system /sys/class/power_supply/usb/otg_switch
+    chmod 0666 /sys/class/power_supply/usb/otg_switch
+
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    chown system system /sys/class/power_supply/battery/mmi_charging_enable
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/mmi_charging_enable
+
     # Services
     setprop init.svc.console stopped
 on boot
