@@ -21,7 +21,7 @@ case $1 in
 	echo 0-3 >/dev/cpuset/restricted/cpus
 
 	# Lock gpu frequency
-	echo 806000 > /proc/gpufreq/gpufreq_opp_freq
+	echo 823000 > /proc/gpufreq/gpufreq_opp_freq
 
 	# Disable ppm
 	echo 0 > /proc/ppm/enabled
