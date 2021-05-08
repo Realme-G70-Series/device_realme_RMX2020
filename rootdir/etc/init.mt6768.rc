@@ -76,24 +76,6 @@ on boot
     # Set permission for Goodix FP
     chown system system /dev/goodix_fp
  
-    # DT2W
-    write /proc/touchpanel/double_tap_enable 1
-
-    # Update touchscreen firmware
-    write /proc/touchpanel/tp_fw_update 1
-
-    # Disable edge limit control interface
-    write /proc/touchpanel/oppo_tp_limit_enable 0
-
-    # Enable oppo touchpanel direction
-    write /proc/touchpanel/oppo_tp_direction 1
-
-    # Game mode
-    write /proc/touchpanel/game_switch_enable 1
-
-    # OTG
-    write /sys/class/power_supply/usb/otg_switch 1
-
 on property:sys.boot_completed=1
     setprop vendor.oppo.biometrics.fingerprint.boot_completed 1
 
