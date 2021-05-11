@@ -151,4 +151,5 @@ PRODUCT_PACKAGES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
+    wpa_supplicant.conf \
     WifiOverlay
