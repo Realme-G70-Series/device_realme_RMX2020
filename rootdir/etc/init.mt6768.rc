@@ -74,6 +74,10 @@ on post-fs-data
     chown system system /sys/class/power_supply/usb/otg_switch
     chmod 0666 /sys/class/power_supply/usb/otg_switch
 
+	# HBM
+	chown system system /sys/kernel/oppo_display/hbm
+	chmod 0666 /sys/kernel/oppo_display/hbm
+
     # Services
     setprop init.svc.console stopped
 on boot
