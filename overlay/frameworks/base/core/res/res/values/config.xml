@@ -224,9 +224,6 @@
     <!-- Wifi driver supports batched scan -->
      <bool name="config_wifi_batched_scan_supported">false</bool>
 
-    <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
-     <bool name="config_wifi_dual_band_support">true</bool>
-
     <!-- Boolean indicating whether single radio chain scan results are to be used for network selection -->
      <bool name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">true</bool>
 
@@ -239,9 +236,6 @@
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
      <bool name="skip_restoring_network_selection">false</bool>
-
-    <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
-    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
 
     <!-- Height of the status bar -->
      <dimen name="status_bar_height_portrait">32.0dip</dimen>
