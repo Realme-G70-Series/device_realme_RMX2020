@@ -104,3 +104,33 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1 \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0
+
+# Props from realme UI 2.0 
+
+# Audio
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.camera.sound.forced=0 \
+    ro.audio.silent=0
+
+# Wifi and Tethering
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    wifi.interface=wlan0 \
+    ro.mediatek.wlan.wsc=1 \
+    ro.mediatek.wlan.p2p=1 \
+    mediatek.wlan.ctia=0 \
+    wifi.tethering.interface=ap0 \
+    wifi.direct.interface=p2p0
+
+# USB Charge only function
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.sys.usb.charging.only=yes \
+    ro.sys.usb.bicr=no \
+    ro.sys.usb.storage.type=mtp
+
+# USB MTP WHQL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.sys.usb.mtp.whql.enable=0
+
+# Power off opt in IPO
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    sys.ipo.pwrdncap=2
