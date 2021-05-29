@@ -69,11 +69,6 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhwbinder
 
-# IMS
-PRODUCT_PACKAGES += \
-    mtk-ims \
-    mtk-ims-telephony
-
 # ImsInit hack
 PRODUCT_PACKAGES += \
     ImsInit
