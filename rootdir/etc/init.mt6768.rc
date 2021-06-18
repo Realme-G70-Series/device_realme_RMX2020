@@ -78,6 +78,9 @@ on post-fs-data
 	chown system system /sys/kernel/oppo_display/hbm
 	chmod 0666 /sys/kernel/oppo_display/hbm
 
+    # Disable edge limit control interface
+    write /proc/touchpanel/oppo_tp_limit_enable 0
+
     # Services
     stop console
 
