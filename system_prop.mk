@@ -99,6 +99,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.sdha_apps_bg_max=64 \
     ro.config.sdha_apps_bg_min=8
 
+# GBoard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.kb_pad_port_b=1
+
 # WFD
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1 \
