@@ -21,6 +21,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.boot-dex2oat-threads=8 \
     dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+   iorapd.perfetto.enable=true \
+   iorapd.readahead.enable=true
+
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=320
