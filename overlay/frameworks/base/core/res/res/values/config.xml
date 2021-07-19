@@ -721,5 +721,8 @@
 
     <!-- Controls whether system buttons use all caps for text -->
     <bool name="config_buttonTextAllCaps">false</bool>
+
+    <!-- Screen off delay --> 
+    <integer name="config_screen_off_delay">0</integer>
 	
 </resources>
