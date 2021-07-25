@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/47187468/126889485-0f4f3cd9-8fc9-4f46-909a-eba0c24d0d26.png)
+
+
 Realme C3/Realme Narzo 10A Device Tree - RMX2020/RMX2027
 ================================================================
 
@@ -17,9 +20,6 @@ Display | 720 x 1560 pixels, 6.50" IPS LCD, 20:9 ratio (~270 ppi density)
 Rear Camera  | Dual : 13 MP; 2MP(depth); 2MP(Macro- only Narzo 10A and C3 Global)
 Front Camera | Single: 5 MP
 Release Month | 2020, February 14 | 2020, May 22 
-
-![Realme C3](https://fdn2.gsmarena.com/vv/pics/realme/realme-c3-2020-2.jpg "Realme C3")
-
 
 Patches needed:
 
