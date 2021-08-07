@@ -52,3 +52,6 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
+
+# USB - from full_oppo6769-user 10 QP1A.190711.020 RMX2020_11.A.03 release-keys
+system/system/lib64/vndk-30/android.hardware.usb@1.0.so
