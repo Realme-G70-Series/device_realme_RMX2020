@@ -119,6 +119,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NotchBarKiller
 
+# MTK IMS Overlays
+PRODUCT_PACKAGES += \
+    mtk-ims \
+    mtk-ims-telephony
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.controls.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.controls.xml \
