@@ -25,9 +25,6 @@ $(call inherit-product, vendor/realme/RMX2020/RMX2020-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Parts
-$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
-
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Dynamic Partition
@@ -75,8 +72,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mt6768.rc \
-    fstab.mt6768 \
-    perf_profile.sh
+    fstab.mt6768
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
