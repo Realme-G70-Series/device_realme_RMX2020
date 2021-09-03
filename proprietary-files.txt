@@ -1,20 +1,26 @@
-#APNs
+# Device proprietary files - From full_oppo6769-user 10 QP1A.190711.020 RMX2020_11.A.55 release-keys, unless pinned
+
+# APNs
 etc/apns-conf.xml:product/etc/apns-conf.xml
 
 # Bluetooth (AptX)
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
 
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
+# IMS - from phh.me
+-priv-app/ImsService/ImsService.apk
+
+# Engineering Mode
+-priv-app/EngineerMode/EngineerMode.apk
+lib/libem_support_jni.so
+lib64/libem_support_jni.so
 
 # Kernel Power Off Charging (KPOC)
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 
-#camera
+# Camera
 vendor/lib/libdpframework.so:product/vendor_overlay/29/lib/libdpframework.so|9b7726891d7432869742d02674cb367d770ed772
 vendor/lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so|48d574415db7f42a855841197a81039274edd20a
-
 vendor/lib/libvpud_vcodec.so:product/vendor_overlay/29/lib/libvpud_vcodec.so|f64b62e94a3f6edb661b7b74c3ec34c19ee710bb
