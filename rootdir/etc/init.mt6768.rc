@@ -124,6 +124,14 @@ service face_hal /system/bin/true
     oneshot
     disabled
 
+service aee_aedv /system/bin/true
+    oneshot
+    disabled
+
+service aee_aedv64 /system/bin/true
+    oneshot
+    disabled
+
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
