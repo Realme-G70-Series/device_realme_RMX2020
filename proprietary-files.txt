@@ -1,4 +1,4 @@
-# All unpinned blobs are from RMX2020_11_C.01
+# All unpinned blobs are from RMX2020_11_C.05
 
 # APNs
 etc/apns-conf.xml:product/etc/apns-conf.xml
@@ -16,3 +16,11 @@ lib64/libem_support_jni.so
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
+
+# Kernel-Modules
+vendor/lib/modules/bt_drv.ko:product/vendor_overlay/30/lib/modules/bt_drv.ko
+vendor/lib/modules/fmradio_drv.ko:product/vendor_overlay/30/lib/modules/fmradio_drv.ko
+vendor/lib/modules/gps_drv.ko:product/vendor_overlay/30/lib/modules/gps_drv.ko
+vendor/lib/modules/wlan_drv_gen4m.ko:product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko:product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko
+vendor/lib/modules/wmt_drv.ko:product/vendor_overlay/30/lib/modules/wmt_drv.ko
