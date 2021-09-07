@@ -250,7 +250,7 @@
          This flag controls whether the {@link Display#FLAG_SUPPORTS_PROTECTED_BUFFERS}
          flag is set for wifi displays.
     -->
-     <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
+     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
     <!-- Wifi driver supports batched scan -->
      <bool name="config_wifi_batched_scan_supported">false</bool>
