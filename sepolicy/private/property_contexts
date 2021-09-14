@@ -1,1 +1,2 @@
 persist.perf_profile        u:object_r:perf_prop:s0
+ro.telephony.default_network u:object_r:radio_prop:s0
