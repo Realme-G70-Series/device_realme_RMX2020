@@ -134,6 +134,9 @@
     -->
      <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">true</bool>
+
     <!-- Is the device capable of hot swapping an ICC Card -->
      <bool name="config_hotswapCapable">true</bool>
 
