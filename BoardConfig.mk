@@ -131,7 +131,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 #DPI
-TARGET_SCREEN_DENSITY := 423
+TARGET_SCREEN_DENSITY := 440
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
