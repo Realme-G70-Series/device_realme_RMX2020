@@ -153,3 +153,6 @@ on property:sys.boot_completed=1
     chown root root /proc/cpufreq/cpufreq_cci_mode
     chmod +x /system/etc/swap_enable.sh
     start swap_enable
+
+on property:persist.vendor.radio.port_index=""
+    setprop sys.usb.config adb
