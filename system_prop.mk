@@ -24,7 +24,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=320
-	
+
+# Fingerprint
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    fingerprint.nocleanup=true
+
 # Hardware Acceleration
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     video.accelerate.hw=1 \
