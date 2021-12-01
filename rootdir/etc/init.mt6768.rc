@@ -7,6 +7,9 @@ on init
     mount none /vendor/lost+found /vendor/overlay bind
     setprop sys.usb.ffs.aio_compat 1
 
+    mount none /system/bin/hw/android.hardware.usb@1.0-service.RMX2020 /vendor/bin/hw/android.hardware.usb@1.1-service-mediatek bind
+    mount none /vendor/lost+found /vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc bind
+
     # Boot time fs tune
     write /sys/block/sda/queue/iostats 0
     write /sys/block/sda/queue/scheduler cfq
