@@ -24,3 +24,6 @@ vendor/lib/modules/gps_drv.ko:product/vendor_overlay/30/lib/modules/gps_drv.ko
 vendor/lib/modules/wlan_drv_gen4m.ko:product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko
 vendor/lib/modules/wmt_chrdev_wifi.ko:product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko
 vendor/lib/modules/wmt_drv.ko:product/vendor_overlay/30/lib/modules/wmt_drv.ko
+
+# Wifi - from Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.5.0.RJOCNXM:user/release-keys
+vendor/bin/hw/hostapd:product/vendor_overlay/30/bin/hw/hostapd|22d0e25a3779bd1a8335402f689e5ed2d3eca83a
