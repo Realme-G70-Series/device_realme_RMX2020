@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     perf_profile.sh \
     swap_enable.sh
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/prebuilt/kernel:kernel
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/idc/mtk-kpd.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/mtk-kpd.idc \
